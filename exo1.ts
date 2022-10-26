@@ -1,12 +1,30 @@
-type Produit = {
-    type: string;
+class Instrument {}
+
+
+class Piano {
+
+    name: string;
     price: number;
-    marque?: string;
+    priceSale: number;
+
+    constructor(name: string, price: number, priceSale: number) {
+        this.name = name;
+        this.price = price;
+        this.priceSale = priceSale;
+    }
 }
 
-let positions: Produit[] = [
-    { type: "TV", price:400, marque: "Samsung"},
-    { type: "Ordinateur", price: 700},
-    { type: "Téléphone", price: 200, marque:"Huawei"},
-    { type: "Portable", price: 900},
-]
+class Guitare {
+
+    name: string;
+    price: number;
+    priceSale: number;
+    width: number;
+    lenght: number;
+
+    constructor(name: string, price: number, priceSale: number) {
+        this.name = name;
+        this.price = price;
+        this.priceSale = priceSale;
+    }
+}
