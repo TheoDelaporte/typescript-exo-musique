@@ -3,6 +3,7 @@ var Instrument = /** @class */ (function () {
     }
     return Instrument;
 }());
+/*  Déclaration de deux interfaces : Gclef  (clé de sol) & Fclef (clé de fa) */
 var Piano = /** @class */ (function () {
     function Piano(name, price, priceSale) {
         this.name = name;

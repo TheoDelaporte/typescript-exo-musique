@@ -1,6 +1,6 @@
 class Instrument {}
 
-
+/*  Déclaration de deux interfaces : Gclef  (clé de sol) & Fclef (clé de fa) */
 class Piano {
 
     name: string;
